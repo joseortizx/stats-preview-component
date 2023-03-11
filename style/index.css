@@ -42,3 +42,14 @@ h6 {
 #__next {
   isolation: isolate;
 }
+/* custom properties */
+:root {
+  /* Primary */
+  --blue-main-bg: hsl(233, 47%, 7%);
+  --blue-card-bg: hsl(244, 38%, 16%);
+  --violet-accent: hsl(277, 64%, 61%);
+  /* Neutral */
+  --White-main-heading-stats: hsl(0, 0%, 100%);
+  --transp-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+  --transp-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+}
