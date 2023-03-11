@@ -109,3 +109,49 @@ h6 {
   font-weight: 400;
   text-transform: uppercase;
 }
+/* media querys */
+@media (min-width: 960px) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 26rem;
+    width: 60rem;
+    text-align: left;
+    align-content: center;
+    justify-items: center;
+  }
+  .card__section--one {
+    height: 100%;
+    width: 30rem;
+    background-size: auto;
+  }
+  .card__section--one picture img {
+    background-image: url(/image-header-desktop.jpg);
+    width: 30rem;
+    height: 26rem;
+  }
+  .card__section--two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    margin: 5% 1%;
+  }
+  .card__section--two-title {
+    font-size: 2rem;
+  }
+  .card__section--two .card-item {
+    width: 80%;
+  }
+  .card__section--three {
+    display: flex;
+  }
+  .colorviolet {
+    height: 100%;
+    width: 49%;
+  }
+  .card-item-especial {
+    margin: 0 2rem;
+  }
+}
