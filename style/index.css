@@ -14,6 +14,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--blue-main-bg);
 }
 img,
 picture,
@@ -52,4 +53,59 @@ h6 {
   --White-main-heading-stats: hsl(0, 0%, 100%);
   --transp-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
   --transp-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+/* card style */
+.card {
+  font-family: "Inter";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 22rem;
+  height: 49rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background-color: var(--blue-card-bg);
+  color: var(--White-main-heading-stats);
+}
+/* section img */
+.colorviolet {
+  background-color: hsl(277, 64%, 40%);
+  position: absolute;
+  opacity: 0.5;
+  z-index: 1;
+  height: 16.1rem;
+  width: 100%;
+}
+/* section letters */
+.card__section--two {
+  margin: 10%;
+}
+.card-item {
+  margin-bottom: 1rem;
+}
+.card__section--two-title {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.card__section--two-title span {
+  color: var(--violet-accent);
+}
+.card__section--two-subTitle {
+  color: var(--transp-white-stat-headings);
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* section reviews */
+.card__section--three {
+  margin-top: 2rem;
+}
+.card__section--three div h3 {
+  color: var(--transp-white-stat-headings);
+  font-size: 0.8rem;
+  font-style: "Lexend Deca";
+  font-weight: 400;
+  text-transform: uppercase;
 }
